@@ -1,4 +1,4 @@
-# John Andrew C. Alvarez — Portfolio
+# John Andrew C. Alvarez - Portfolio
 
 My personal portfolio website, showcasing academic and personal web development projects.
 
@@ -13,10 +13,10 @@ This portfolio highlights projects built during my studies in Information Techno
 - **Comfort & Style Apartment** — A web-based apartment booking management system (WS101 case study)
   🔗 [Live Demo](#) · [GitHub](https://github.com/alvarezandrewwork-blip/Comfort-and-Style)
 
-- **Herdoza Fitness Center** — A web-based gym membership and booking management system (IPT102 project)
+- **Herdoza Fitness Center** - A web-based gym membership and booking management system (IPT102 project)
   🔗 [GitHub](#)
 
-- **ANALI School Portal** — A web-based school portal and invoicing system for Assist N Achieve Leaders International (Capstone project)
+- **ANALI School Portal** - A web-based school portal and invoicing system for Assist N Achieve Leaders International (Capstone project)
   🔗 [GitHub](#)
 
 ## Tech Stack
