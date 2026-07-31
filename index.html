@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>John Andrew C. Alvarez — QA Analyst & Automation Developer</title>
+<title>John Andrew C. Alvarez - QA Analyst & Automation Developer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+  
 :root {
   --ink: #16130F;
   --ink-soft: #3A342C;
@@ -85,10 +86,9 @@ a { color: inherit; }
   display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 48px; align-items: center;
   padding-top: 72px; padding-bottom: 64px;
 }
-.status-line { display: flex; align-items: center; justify-content: space-between; font-family: var(--font-mono); font-size: 12px; margin-bottom: 20px; }
+.status-line { display: flex; align-items: center; font-family: var(--font-mono); font-size: 12px; margin-bottom: 20px; }
 .badge { border: 1px solid var(--line-strong); border-radius: 20px; padding: 5px 12px; letter-spacing: 0.02em; }
 .badge--pass { color: var(--pass); border-color: var(--pass); }
-.case-id { color: var(--ink-soft); opacity: 0.72; }
 
 h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(38px, 5vw, 58px); line-height: 1.05; margin: 0 0 8px; letter-spacing: -0.01em; }
 .role { font-family: var(--font-mono); font-size: 15px; color: var(--clay-deep); margin: 0 0 18px; }
@@ -302,7 +302,7 @@ h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(38px, 
       <a href="#education">Records</a>
       <a href="#experience">Field Notes</a>
       <a href="#skills">Coverage</a>
-      <a href="#projects">Test Log</a>
+      <a href="#projects">Track Record</a>
       <a href="#process">Method</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -319,13 +319,12 @@ h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(38px, 
     <div>
       <div class="status-line">
         <span class="badge badge--pass">● STATUS: OPEN TO WORK</span>
-        <span class="case-id">CASE № 2026-001</span>
       </div>
       <h1>John Andrew C. Alvarez</h1>
       <p class="role">Junior QA Analyst / IT Automation Developer</p>
       <p class="lede">I test systems until they break, then build the automation that keeps them from breaking again. Hands-on with four production Google Apps Script systems built during my OJT practicum at ANALITECH Management Corporation.</p>
       <div class="hero-actions">
-        <a href="#projects" class="btn btn--solid">View test log</a>
+        <a href="#projects" class="btn btn--solid">View track record</a>
         <a href="#contact" class="btn btn--outline">Get in touch</a>
       </div>
     </div>
@@ -359,11 +358,18 @@ h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(38px, 
     </div>
     <div class="edu-list">
       <div class="edu-item">
-        <span class="edu-years">2021 – 2025</span>
+        <span class="edu-years">2022 – 2026</span>
         <div>
           <h3 class="edu-school">Baliwag Polytechnic College</h3>
           <p class="edu-degree">BS Information Technology</p>
-          <span class="edu-honor">Latin Honor — Cum Laude</span>
+          <span class="edu-honor">Latin Honor - Cum Laude</span>
+        </div>
+      </div>
+      <div class="edu-item">
+        <span class="edu-years">2021 – 2022</span>
+        <div>
+          <h3 class="edu-school">Baliwag Polytechnic College</h3>
+          <p class="edu-degree">Senior High School — Information &amp; Communications Technology (ICT)</p>
         </div>
       </div>
     </div>
@@ -407,6 +413,14 @@ h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(38px, 
       <h2>Experience</h2>
     </div>
     <div class="exp-list">
+      <div class="exp-item">
+        <span class="exp-dates">Jan 2026 – Present</span>
+        <div>
+          <h3 class="exp-org">ANALITECH Management Corporation</h3>
+          <p class="exp-role">IT Department Staff — QA &amp; Process Automation (Project-Based) · Imus, Cavite</p>
+          <p class="exp-desc">Own QA and automation across five production systems for one school client — manual/functional testing on the ANALI Portal, plus four Google Apps Script systems built from scratch. Combined, the two TFA intake paths have produced 198+ assessments and the billing module has processed 52 invoice records, with zero manual assignment on the automated path. Continue on a project basis post-internship, maintaining and extending the Invoice &amp; Billing System. Full breakdown in Track Record below.</p>
+        </div>
+      </div>
       <div class="exp-item">
         <span class="exp-dates">Nov 2025</span>
         <div>
@@ -455,6 +469,13 @@ h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(38px, 
         </div>
       </div>
       <div class="skill-group">
+        <h3>Also Exposed To</h3>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">Java</span>
+        </div>
+      </div>
+      <div class="skill-group">
         <h3>Tools</h3>
         <div class="chips">
           <span class="chip">VS Code</span>
@@ -466,10 +487,10 @@ h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(38px, 
     </div>
   </section>
 
-  <!-- 05 TEST LOG / PROJECTS -->
+  <!-- 05 TRACK RECORD / PROJECTS -->
   <section class="section" id="projects">
     <div class="section-head">
-      <span class="eyebrow">05 — Test Log</span>
+      <span class="eyebrow">05 — Track Record</span>
       <h2>Projects</h2>
     </div>
     <div class="projects-grid" id="projectsGrid"></div>
@@ -590,30 +611,10 @@ h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(38px, 
 </main>
 
 <script>
-/* =========================================================
-   STATIC DEPLOY BUILD — v50
-   No edit mode, no admin controls, no resume-matcher —
-   this is the clean version meant for public hosting
-   (GitHub Pages, Netlify, etc.).
-
-   v49 — CHANGED: removed the "Diagnostic / Resume ↔ Job Match"
-   section and its JS (keyword matcher, file upload parsing,
-   AI insight fetch, pdf.js/mammoth script tags). Replaced with
-   a static "How I test" process section — no unverifiable
-   claims, no dependency on an external API key at runtime.
-   The matcher itself is still worth keeping in the PRIVATE
-   working copy as a personal tool for checking resume/JD
-   fit before applying — just not on the public-facing page
-   until there's a full CV to point it at.
-
-   To add or update projects, edit the `projects` array below
-   directly and redeploy. Keep drafting/testing changes in the
-   private editable copy, then port finished changes here.
-   ========================================================= */
 
 let projects = [
   {
-    id: "TC-01",
+    id: "QA-01",
     title: "ANALI Portal & Website",
     status: "IN PRODUCTION",
     desc: "Manual and functional testing across core user flows, reporting defects and verifying fixes before release.",
@@ -622,7 +623,7 @@ let projects = [
     icon: `<rect x="2" y="4" width="44" height="28" rx="2" stroke-width="1.5"/><line x1="2" y1="11" x2="46" y2="11" stroke-width="1.5"/><circle cx="7" cy="7.5" r="1" fill="currentColor" stroke="none"/><circle cx="11" cy="7.5" r="1" fill="currentColor" stroke="none"/><circle cx="15" cy="7.5" r="1" fill="currentColor" stroke="none"/><path d="M16 22l5 5 11-12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`
   },
   {
-    id: "TC-02",
+    id: "SYS-01",
     title: "Pre-Enrollment Consultation Booking System",
     status: "IN PRODUCTION",
     desc: "Automated application-consultation bookings with Google Apps Script — auto-emailing confirmations, syncing to Admin Calendar, and generating TFAs from form submissions. ~30 live bookings, zero manual assignment.",
@@ -631,7 +632,7 @@ let projects = [
     icon: `<rect x="4" y="6" width="30" height="26" rx="2" stroke-width="1.5"/><line x1="4" y1="13" x2="34" y2="13" stroke-width="1.5"/><line x1="11" y1="3" x2="11" y2="9" stroke-width="1.5" stroke-linecap="round"/><line x1="27" y1="3" x2="27" y2="9" stroke-width="1.5" stroke-linecap="round"/><circle cx="37" cy="26" r="8" stroke-width="1.5" fill="var(--paper)"/><path d="M37 21v5l3 3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>`
   },
   {
-    id: "TC-03",
+    id: "SYS-02",
     title: "Enrollment LSA Booking System",
     status: "PENDING DEPLOYMENT",
     desc: "A separate exam (Learning Skills Assessment) scheduling system with confirmation dialogs, row locking, and token-based rescheduling via email action links.",
@@ -640,7 +641,7 @@ let projects = [
     icon: `<rect x="4" y="6" width="30" height="26" rx="2" stroke-width="1.5"/><line x1="4" y1="13" x2="34" y2="13" stroke-width="1.5"/><rect x="31" y="20" width="13" height="11" rx="1.5" stroke-width="1.5" fill="var(--paper)"/><path d="M34.5 20v-3a3 3 0 0 1 6 0v3" stroke-width="1.5"/>`
   },
   {
-    id: "TC-04",
+    id: "SYS-03",
     title: "TFA (Tuition Fee Assessment) Generator",
     status: "IN PRODUCTION",
     desc: "The engine Admin uses to create, review, and send tuition assessments across auto-generated and manually created records. ~40 students assessed in production.",
@@ -649,7 +650,7 @@ let projects = [
     icon: `<rect x="10" y="3" width="24" height="30" rx="2" stroke-width="1.5"/><line x1="15" y1="11" x2="29" y2="11" stroke-width="1.5"/><line x1="15" y1="16" x2="29" y2="16" stroke-width="1.5"/><line x1="15" y1="21" x2="24" y2="21" stroke-width="1.5"/><rect x="15" y="25" width="18" height="8" rx="1.5" fill="currentColor" fill-opacity="0.12" stroke-width="1"/><text x="24" y="31" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="var(--font-mono)">PDF</text>`
   },
   {
-    id: "TC-05",
+    id: "SYS-04",
     title: "Invoice & Billing System",
     status: "IN PRODUCTION",
     desc: "The invoicing module Admin uses to generate billing statements and track payments across installment schemes. ~40 student/parent accounts served.",
@@ -680,9 +681,10 @@ function statusClass(status) {
 function renderProjects() {
   projectsGrid.innerHTML = "";
   if (projects.length === 0) {
-    projectsGrid.innerHTML = `<div class="empty-state">No test cases logged yet.</div>`;
+    projectsGrid.innerHTML = `<div class="empty-state">No projects logged yet.</div>`;
     return;
   }
+
   projects.forEach((p) => {
     const card = document.createElement("div");
     card.className = "project-card";
@@ -693,7 +695,6 @@ function renderProjects() {
       </div>
       <div class="card-thumb-placeholder">
         <svg viewBox="0 0 48 36" width="52" height="39" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">${p.icon}</svg>
-        <span>Concept icon — screenshot pending</span>
       </div>
       <h3>${p.title}</h3>
       <p>${p.desc}</p>
@@ -704,6 +705,7 @@ function renderProjects() {
   });
 }
 renderProjects();
+
 </script>
 </body>
 </html>
