@@ -2,7 +2,7 @@
 
 My personal portfolio website, showcasing academic and personal web development projects.
 
-🔗 **Live site:** https://alvarezandrewwork-blip.github.io/Portfolio/
+🔗 **Live site:** https://alvarezandrewwork-blip.github.io/portfolio/
 
 ## About
 
